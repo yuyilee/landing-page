@@ -8,6 +8,16 @@ h1 {
     color: #f9faf8
 }
 
+h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+img {
+    width: 100%;
+}
+
 .wrapper {
     margin: 0 auto;
     display: flex;
@@ -70,5 +80,39 @@ h1 {
     font-size: large;
     font-weight: bold;
     border: none;
+    border-radius: 4px;
+}
+
+.information {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 30vh;
+    gap: 20px;
+}
+
+.info-showcase {
+    margin: 20px 0 ;
+    display: flex;
+    width: 1000px;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex-basis: 150px;
+    flex-grow: 0;
+    align-items: center;
+    text-align: center;
+}
+.info-img {
+    width: 200px;
+    height: 200px;
+    border: 5px solid #3882f6;
     border-radius: 4px;
 }
