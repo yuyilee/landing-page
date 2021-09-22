@@ -1,0 +1,37 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.wrapper {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1f2937;
+}
+
+.nav-bar {
+    display: flex;
+    height: 72px;
+    align-items: center;
+    width: 1000px;
+}
+
+.nav a {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+    text-decoration: none;
+}
+
+.nav-bar ul {
+    display: flex;
+    margin-left: auto;
+    gap: 20px
+}
